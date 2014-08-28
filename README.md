@@ -8,7 +8,14 @@ Storify runs on Node.js, therefore why not use it to write an application that d
 
 ![Instagram Gallery: Storify API + Node.js = <3 ](http://f.cl.ly/items/373q1v3u3Y3d3P1w1e0t/Screen%20Shot%202013-06-03%20at%2010.23.48%20AM.png)
 
-## A File Structure 
+
+## Express 4 Update
+
+This is Express 4.x version.
+
+For Express 3.x go to [release 0.1.0](https://github.com/azat-co/sfy-gallery/releases/tag/v0.1.0).
+
+## A File Structure
 
 - index.js
 - package.json
@@ -82,8 +89,8 @@ app.get('/',function(req, res){
     .set({  Accept: 'application/json' })
     .end(function(e, storifyResponse){
       if (e) next(e);
-      //Render template with story object in response body     
-      return res.render('index',storifyResponse.body.content);      
+      //Render template with story object in response body
+      return res.render('index',storifyResponse.body.content);
     })
 
 })
