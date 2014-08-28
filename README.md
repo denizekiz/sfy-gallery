@@ -26,10 +26,10 @@ For Express 3.x go to [release 0.1.0](https://github.com/azat-co/sfy-gallery/rel
 
 ## Dependencies
 
-* express: 3.2.5
-* superagent: 0.14.6
-* consolidate: 0.9.1
-* handlebars: 1.0.12
+* express: 4.8.1
+* superagent: 0.18.2
+* consolidate: 0.10.0
+* handlebars: 2.0.0-beta.1
 
 package.json:
 
