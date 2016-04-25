@@ -14,7 +14,7 @@ app.set('views', __dirname + '/views');
 app.use(express.static(__dirname + '/public'));
 
 var user = 'azat_co';
-var story_slug = 'kazan';
+var story_slug = 'node-interactive-2015';
 
 //Paste your values
 var api_key = "";
